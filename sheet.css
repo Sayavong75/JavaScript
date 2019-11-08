@@ -1,0 +1,92 @@
+/* police de caractère personnalisée Roboto Slab */
+@font-face {
+	font-family: 'Roboto Slab', serif;
+	src: url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+}
+@font-face {
+	font-family: 'Roboto Slab', serif;
+	font-style: italic;
+	src: url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+}
+@font-face {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	src: url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+}
+
+/* couleur du header */
+header {
+    color: black;
+    text-align: center;
+    font-style: normal;
+	font-weight: bold;
+}
+
+/* affichage du menu */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    list-style-type:none;
+    font-style: normal;
+	font-weight: normal;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+/* affichage de la fenêtre 1 */
+.div_one {
+    margin: auto;
+    text-align: center;
+    width: 800px; 
+}
+
+/* affichage de la fenêtre 2 */
+.div_two {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-spacing: 30px;
+}
+
+.div_two td {
+    /* background-color:#ccc; */
+    background-color: white;
+    padding:2px; /* équivalent cellpadding */
+    width:300px;
+    overflow:auto; /* si ça dépasse on affiche la scrollbar */
+}
+
+
+/* affichage de la fenêtre 3 */
+.div_three {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-spacing: 0px;
+}
+
+.div_three td {
+    border-width: 1px;
+    border-color:black;
+    border-style: solid;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    padding:2px; /* équivalent cellpadding */
+    width:220px;
+    overflow:auto; /* si ça dépasse on affiche la scrollbar */
+}
+
+#screen_three {
+    border-collapse: collapse;
+}
+

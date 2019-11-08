@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bulletin Météo Simplon</title>
+
+    <link rel="stylesheet" href="sheet.css"/>
+</head>
+
+<body onLoad="pageFour();">
+
+    <header>
+        <h1>Bienvenue dans la station météo de la promo</body<h1><br/><br/>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="javascript:void(0)" onclick="pageOne()">Dernière mesure</a></li>
+            <li><a href="javascript:void(0)" onclick="pageTwo()">Top mesures</a></li>
+            <li><a href="javascript:void(0)" onclick="pageThree()">Tableaux des mesures</a></li>
+            <li><a href="javascript:void(0)" onclick="pageFour()">Graphiques des mesures</a></li>
+        </ul>
+    </nav>
+
+    <br>
+    <br>
+
+    <div class="div_one" id="screen_one">
+        <div id="lastmeasurement"></div>
+    </div>
+
+    <div class="div_two">
+        <table id="screen_two">
+            <tr>
+                <td id="topHumidite"></td>
+                <td id="topTemperature"></td>
+                <td id="topPression"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="div_three">
+        <table id="screen_three">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+
+<script src="script.js"></script>
+
+</html>
